@@ -29,7 +29,7 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
+  title: 'tamilcode.org',
   description: 'The professional publishing platform',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
