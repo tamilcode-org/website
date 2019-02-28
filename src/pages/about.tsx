@@ -38,27 +38,32 @@ const About: React.FunctionComponent = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Ghost is professional publishing platform designed for modern journalism. This is a
-                demo site of a basic Ghost install to give you a general sense of what a new Ghost
-                site looks like when set up for the first time.
+                tamilcode.org was started to teach, learn, acquire and distribute different knowledge and skills in Tamil language.
               </p>
               <blockquote>
                 <p>
-                  If you'd like to set up a site like this for yourself, head over to{' '}
-                  <a href="https://ghost.org">Ghost.org</a> and start a free 14 day trial to give
-                  Ghost a try!
+                  The best way to learn is by teaching - Frank oppenheimer
                 </p>
               </blockquote>
-              <p>
-                If you're a developer: Ghost is a completely open source (MIT) Node.js application
-                built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite,
-                and is publicly available <a href="https://github.com/TryGhost/ghost">on Github</a>.
-              </p>
-              <p>
-                If you need help with using Ghost, you'll find a ton of useful articles on{' '}
-                <a href="https://help.ghost.org">our knowledgebase</a>, as well as extensive{' '}
-                <a href="https://docs.ghost.org">developer documentation</a>.
-              </p>
+              <p>tamilcode.org is interested mainly in teaching</p>
+              <ul>
+                <li>Aptitude skills</li>
+                <li>Logical reasoning</li>
+                <li>Maths and Science</li>
+                <li>Technology</li>
+                <li>Engineering</li>
+                <li>Puzzles</li>
+                <li>Programming (computer coding)</li>
+                <li>Riddles</li>
+                <li>Tamil Stories</li>
+              </ul>
+              <blockquote>
+                <p>
+                  Thoroughly to teach another is the best way to learn for yourself - Tryon Edwards
+                </p>
+              </blockquote>
+              <p>Everything in the site is taught through small quiz, blogs and video based content. Check out our youtube channels for more updates in tamil.</p>
+              <p>Spread the knowledge via tamil language and help us contribute more by contributing content to our site.</p>
             </div>
           </PostFullContent>
         </article>

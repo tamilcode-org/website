@@ -222,9 +222,6 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({ post }) => {
             {post.frontmatter.tags && <PostCardTags>{post.frontmatter.tags[0]}</PostCardTags>}
             <PostCardTitle>{post.frontmatter.title}</PostCardTitle>
           </header>
-          <PostCardExcerpt>
-            <p>{post.excerpt}</p>
-          </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
           <AuthorList>
