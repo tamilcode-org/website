@@ -35,7 +35,7 @@ const config: WebsiteConfig = {
   logo: 'img/tamilcode-logo.png',
   lang: 'en',
   siteUrl: 'https://tamilcode.org',
-  facebook: 'https://facebook.com/paramanantham.harrison',
+  facebook: '',
   twitter: 'https://twitter.com/Jacknapes',
   showSubscribe: false,
 };
