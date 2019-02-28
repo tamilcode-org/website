@@ -1,15 +1,8 @@
-- id: Ghost
-  avatar: avatars/ghost.png
-  bio: The professional publishing platform
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
+- id: Param
+  avatar: avatars/param.jpg
+  bio: தமிழன் என்று சொல்லடா தலை நிமிர்ந்து நில்லடா 
+  twitter: Jacknapes
+  facebook: paramanantham.harrison
+  website: https://learnwithparam.com
+  location: தமிழ்நாடு
   profile_image: img/alex-knight.jpg
