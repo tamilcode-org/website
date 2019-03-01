@@ -1,12 +1,10 @@
 ---
 layout: post
 title: புது தில்லியில் நடைபெற்ற 14 ஆவது வேளாண் அறிவியல் காங்கிரஸின் (Agricultural Science Congress) தீம் என்ன?
-image: img-cover.jpg
 author: Param
 date: 2019-03-01T00:00:00.000Z
 tags: 
   - Current Affairs
-draft: false
 ---
 
 ### வினா

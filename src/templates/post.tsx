@@ -347,13 +347,6 @@ export const query = graphql`
         userDate: date(formatString: "D MMMM YYYY")
         date
         tags
-        image {
-          childImageSharp {
-            fluid(maxWidth: 3720) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         author {
           id
           bio
@@ -370,7 +363,7 @@ export const query = graphql`
       }
     }
     relatedPosts: allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$primaryTag] }, draft: { ne: true } } }
+      filter: { frontmatter: { tags: { in: [$primaryTag] } } }
       limit: 3
     ) {
       totalCount

@@ -59,18 +59,6 @@ exports.createPages = async ({ graphql, actions }) => {
               title
               tags
               date
-              draft
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 3720) {
-                    aspectRatio
-                    base64
-                    sizes
-                    src
-                    srcSet
-                  }
-                }
-              }
               author {
                 id
                 bio

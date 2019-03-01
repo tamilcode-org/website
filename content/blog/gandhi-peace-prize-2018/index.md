@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2018 ஆம் ஆண்டிற்கான காந்தி அமைதி பரிசு யாருக்கு வழங்கப்பட்டது?
-image: img-cover.jpg
 author: Param
 date: 2019-03-01T00:00:00.000Z
 tags: 
   - Current Affairs
-draft: false
 ---
 
 ### வினா
