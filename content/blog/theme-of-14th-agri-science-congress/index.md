@@ -7,11 +7,7 @@ tags:
   - Current Affairs
 ---
 
-### வினா
-
-புது தில்லியில் நடைபெற்ற 14 ஆவது வேளாண் அறிவியல் காங்கிரஸின் (Agricultural Science Congress) தீம் என்ன?
-
-### தேர்வுகள்
+### தேர்வுகள் (Choices)
 
 - **அ**. விவசாயம் மற்றும் கடல்சார் ஒத்துழைப்பை வலுப்படுத்துதல் (Strengthening Agriculture and Maritime Cooperation)
 - **ஆ**. வேளாண் உருமாற்றத்திற்கான கண்டுபிடிப்புகள் (Innovations for Agricultural Transformation)
@@ -20,7 +16,7 @@ tags:
 
 ### பதில் 
 
-சரியான தேர்வு - **ஈ**
+சரியான தேர்வு - **ஆ**
 
 ### விளக்கம்
 

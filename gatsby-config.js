@@ -63,6 +63,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     'gatsby-plugin-feed',
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
@@ -87,5 +88,16 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Mukta Malar',
+            variants: ['400', '500', '700'],
+          },
+        ],
+      },
+    }
   ],
 };
