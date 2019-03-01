@@ -77,10 +77,6 @@ const PostCardTitle = styled.h2`
   margin-top: 0;
 `;
 
-const PostCardExcerpt = styled.section`
-  font-family: Georgia, serif;
-`;
-
 const PostCardMeta = styled.footer`
   display: flex;
   justify-content: space-between;
