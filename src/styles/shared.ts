@@ -137,7 +137,6 @@ export const SiteHeaderStyles = css`
 
 export const AuthorProfileImage = css`
   display: block;
-  /* background: color(var(--lightgrey) l(+10%)); */
   background: ${lighten('0.1', colors.lightgrey)};
   border-radius: 100%;
   object-fit: cover;
