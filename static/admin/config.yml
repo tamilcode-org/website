@@ -2,16 +2,28 @@ backend:
   name: github
   repo: tamilcode-org/tamilcode-content
 
-media_folder: static/assets
+media_folder: content/assets
 public_folder: assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: post
+    label: Post
+    folder: content/blog
     create: true
     fields:
       - { name: path, label: Path }
+      - { name: layout, label: Layout, widget: string }
       - { name: date, label: Date, widget: date }
+      - { name: draft, label: Draft, widget: boolean, default: false }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - name: tag
+        label: Tag
+        widget: list
+        fields:
+          - { name: path, label: Path }
+          - { name: title, label: Title }
+          - { name: description, label: Description }
+          - { name: image, label: Image, widget: image, required: false }
+          
+
