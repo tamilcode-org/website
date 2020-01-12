@@ -8,6 +8,7 @@ import {
   Heading,
   Link as ChakraLink,
 } from '@chakra-ui/core';
+import { SocialIcon } from 'react-social-icons';
 
 const StyledHeader = styled('header')`
   max-width: 960px;
@@ -46,6 +47,11 @@ const StyledChakraLink = styled(ChakraLink)`
 `;
 
 const LogoContainer = styled(Box)``;
+
+const socialIconStyle = {
+  width: `30px`,
+  height: `30px`,
+};
 
 const links = [
   {
@@ -123,6 +129,27 @@ const Header = () => {
               </NavItem>
             );
           })}
+          <NavItem as="li" ml="3">
+            <SocialIcon
+              title="Follow me on twitter"
+              alt="Twitter follow intent"
+              style={socialIconStyle}
+              target="_blank"
+              rel="noopener noreferrer"
+              url="https://twitter.com/intent/follow?screen_name=learnwithparam"
+            />
+          </NavItem>
+          <NavItem as="li" ml="3">
+            <SocialIcon
+              network="youtube"
+              title="Subscribe to Youtube"
+              alt="Youtube channel"
+              style={socialIconStyle}
+              target="_blank"
+              rel="noopener noreferrer"
+              url="https://www.youtube.com/channel/UC1HCEHLm656aFa0dAO4NSBQ"
+            />
+          </NavItem>
         </NavList>
       </nav>
     </StyledHeader>
