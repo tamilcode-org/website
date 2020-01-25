@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 import Hero, { HeroWithImage } from '../components/hero';
 import FeatureItem from '../components/feature-item';
 import {
-  MentorNonYellowImage,
+  WinImage,
   PortfolioImage,
   MentorImage,
   SayHiImage,
@@ -20,7 +20,7 @@ const Container = styled(Box)`
 
 const WhatWeDo = [
   {
-    FeatureImage: MentorNonYellowImage,
+    FeatureImage: WinImage,
     type: 'image',
     title: 'Programming Workshops and Webinars',
     description:
@@ -54,7 +54,7 @@ const Page = props => {
             HeroImage={MentorImage}
             buttonLink="https://discord.gg/NPXQqeX"
             buttonText="Join the community"
-            hasButton={true}
+            hasButton={false}
             isExternalLink={true}
           />
         </Container>

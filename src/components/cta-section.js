@@ -21,16 +21,6 @@ export const CTASection = props => {
           {description}
         </Text>
       </Box>
-      <Box mx={3}>
-        <Button
-          variantColor="teal"
-          fontSize="0.75rem"
-          lineHeight="1"
-          textTransform="uppercase"
-        >
-          Join the community
-        </Button>
-      </Box>
     </Flex>
   );
 };

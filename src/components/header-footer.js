@@ -53,13 +53,7 @@ const socialIconStyle = {
   height: `30px`,
 };
 
-const links = [
-  {
-    href: 'https://discord.gg/NPXQqeX',
-    value: 'Join the community',
-    isExternal: true,
-  },
-];
+const links = [];
 
 const Header = () => {
   return (
