@@ -94,7 +94,7 @@ const Page = props => {
         <Container pt="100px" px="20px">
           <Hero
             title="Don't be shy, say hi!"
-            description="If you have ideas to help the community, pls share with us. We will get back to you as soon as possible within a weeks time"
+            description="If you have ideas to help the community, please share with us. We will get back to you as soon as possible within a weeks time"
             hasButton={true}
             buttonText="Get in touch"
             buttonLink="mailto:paramanantham@live.com"
