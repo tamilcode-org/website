@@ -84,6 +84,9 @@ export const HeroWithImage = props => {
     hasButton,
     isExternalLink,
     buttonLink,
+    hasSecondaryButton,
+    secondaryButtonText,
+    secondaryButtonLink,
   } = props;
 
   return (
@@ -113,24 +116,48 @@ export const HeroWithImage = props => {
         >
           {description}
         </Text>
-        {hasButton ? (
-          <>
-            {isExternalLink ? (
-              <ChakraLink href={buttonLink} isExternal>
-                <Button
-                  variantColor="purple"
-                  size="lg"
-                  lineHeight="1"
-                  textTransform="uppercase"
-                >
-                  {buttonText}
-                </Button>
-              </ChakraLink>
-            ) : (
-              <Link to={buttonLink}>{buttonText}</Link>
-            )}
-          </>
-        ) : null}
+        <Box pt={3}>
+          {hasButton ? (
+            <>
+              {isExternalLink ? (
+                <ChakraLink href={buttonLink} isExternal>
+                  <Button
+                    variantColor="purple"
+                    size="lg"
+                    lineHeight="1"
+                    textTransform="uppercase"
+                  >
+                    {buttonText}
+                  </Button>
+                </ChakraLink>
+              ) : (
+                <Link to={buttonLink}>
+                  <Button
+                    variantColor="purple"
+                    size="lg"
+                    lineHeight="1"
+                    textTransform="uppercase"
+                  >
+                    {buttonText}
+                  </Button>
+                </Link>
+              )}
+            </>
+          ) : null}
+          {hasSecondaryButton && (
+            <Link to={secondaryButtonLink}>
+              <Button
+                variantColor="gray"
+                size="lg"
+                lineHeight="1"
+                textTransform="uppercase"
+                ml={3}
+              >
+                {secondaryButtonText}
+              </Button>
+            </Link>
+          )}
+        </Box>
       </Box>
       {HeroImage && (
         <Box width={{ base: '100%', lg: '50%' }} mx={6}>

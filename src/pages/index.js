@@ -9,6 +9,7 @@ import FeatureItem from '../components/feature-item';
 import {
   WinImage,
   PortfolioImage,
+  ProgrammingImage,
   MentorImage,
   SayHiImage,
 } from '../components/images';
@@ -20,11 +21,11 @@ const Container = styled(Box)`
 
 const WhatWeDo = [
   {
-    FeatureImage: WinImage,
+    FeatureImage: ProgrammingImage,
     type: 'image',
-    title: 'Programming Workshops and Webinars',
+    title: 'Tamil programming courses',
     description:
-      'Free remote workshops on web and mobile development to help tamil programmers community. Help tamil coders to learn building real world projects',
+      'We create high quality real world programming courses on cutting-edge web and mobile technologies',
   },
   {
     FeatureImage: PortfolioImage,
@@ -32,6 +33,13 @@ const WhatWeDo = [
     title: 'A platform for you to grow',
     description:
       'A platform to get out of your comfort zone and help others while learning yourself. Create quality content by tamil programmers for tamil programmers',
+  },
+  {
+    FeatureImage: WinImage,
+    type: 'image',
+    title: 'Programming Workshops and Webinars',
+    description:
+      'Remote workshops on web and mobile development to help tamil programmers community. Help tamil coders to learn building real world projects',
   },
 ];
 
@@ -46,16 +54,18 @@ const Page = props => {
           'Coding in Tamil',
         ]}
       />
-      <Box bg="green.50">
+      <Box bg="gray.50">
         <Container py="50px">
           <HeroWithImage
-            title="Join the community of tamil coders"
-            description="We help tamil people to learn programming in their own language and understood the concepts better. We help each other grow through community events"
+            title="Become a better web & mobile developer"
+            description="Level up your skills by learning through highly focussed, cutting-edge video courses in tamil language."
             HeroImage={MentorImage}
-            buttonLink="https://discord.gg/NPXQqeX"
-            buttonText="Join the community"
-            hasButton={false}
-            isExternalLink={true}
+            hasButton={true}
+            buttonText="Go Pro"
+            buttonLink="/"
+            hasSecondaryButton={true}
+            secondaryButtonText="Courses"
+            secondaryButtonLink="/"
           />
         </Container>
       </Box>
@@ -82,8 +92,8 @@ const Page = props => {
             mx="auto"
             textAlign="center"
           >
-            We help each other to grow as programmers through community
-            activities in tamil language
+            We help tamil programmers to master the coding skills to become an
+            engineer companies love to hire
           </Text>
           {WhatWeDo.map((item, index) => {
             return <FeatureItem key={item.title} index={index} {...item} />;
@@ -94,7 +104,7 @@ const Page = props => {
         <Container pt="100px" px="20px">
           <Hero
             title="Don't be shy, say hi!"
-            description="If you have ideas to help the community, please share with us. We will get back to you as soon as possible within a weeks time"
+            description="If you have ideas to help the community or new courses, please share with us. We will get back to you in 5 business days."
             hasButton={true}
             buttonText="Get in touch"
             buttonLink="mailto:paramanantham@live.com"

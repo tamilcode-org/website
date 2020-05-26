@@ -53,7 +53,16 @@ const socialIconStyle = {
   height: `30px`,
 };
 
-const links = [];
+const links = [
+  {
+    href: '/',
+    value: 'Subscribe',
+  },
+  {
+    href: '/',
+    value: 'Courses',
+  },
+];
 
 const Header = () => {
   return (
@@ -79,7 +88,7 @@ const Header = () => {
                 as="li"
                 key={link.value}
                 color="gray.500"
-                ml="32px"
+                mx={3}
               >
                 {link.type === 'button' ? (
                   <>
@@ -123,7 +132,7 @@ const Header = () => {
               </NavItem>
             );
           })}
-          <NavItem as="li" ml="3">
+          <NavItem as="li" ml={6}>
             <SocialIcon
               title="Follow me on twitter"
               alt="Twitter follow intent"
@@ -131,17 +140,6 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               url="https://twitter.com/intent/follow?screen_name=learnwithparam"
-            />
-          </NavItem>
-          <NavItem as="li" ml="3">
-            <SocialIcon
-              network="youtube"
-              title="Subscribe to Youtube"
-              alt="Youtube channel"
-              style={socialIconStyle}
-              target="_blank"
-              rel="noopener noreferrer"
-              url="https://www.youtube.com/channel/UC1HCEHLm656aFa0dAO4NSBQ"
             />
           </NavItem>
         </NavList>
